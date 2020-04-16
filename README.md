@@ -6,8 +6,8 @@
 
 ### Links and Resources
 
-- [submission PR]()
-- [ci/cd]() (GitHub Actions)
+- [submission PR](https://github.com/daniel-nguyen-401-advanced-javascript/lab-10/pull/1)
+- [ci/cd](https://github.com/daniel-nguyen-401-advanced-javascript/lab-10/actions) (GitHub Actions)
 - [back-end server url](NA) 
 - [front-end application](NA)
 - [swagger API]()
@@ -24,10 +24,11 @@ N/A
 ### Setup
 
 #### `.env` requirements (where applicable)
-- `PORT` - Port Number
+- `PORT`
+- `MONGODB_URI`
 
 #### How to initialize/run your application (where applicable)
-- N/A
+- `node index.js`
 
 #### How to use your library (where applicable)
 
@@ -35,6 +36,7 @@ N/A
 #### Tests
 
 - How do you run tests? 
+* `npm test`
 
 - Any tests of note?
 
