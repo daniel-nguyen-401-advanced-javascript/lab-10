@@ -20,7 +20,7 @@ const UsersModel = new Model(userSchema);
 
 describe('All Routes Work', () => {
   it('POST /signup // user signup works via request.body', async () => {
-    let userTest = await UsersModel.create({
+    let response = await UsersModel.create({
       username: 'testUser',
       password: 'testPass',
     });
@@ -33,7 +33,9 @@ describe('All Routes Work', () => {
     //expect pw that doesnt match input pass
     //expect new id
     //use mockRequest.post('/signup').send({}) instead of await UsersMode.create({})
-    expect(userTest.username).toBe('testUser');
+    expect(response.username).toBe('testUser');
+    // expect(response.body._id).toBeDefined();
+    expect(response.password).toBeDefined();
   });
 
   it('POST /signin // user signin works', async () => {
@@ -47,6 +49,7 @@ describe('All Routes Work', () => {
     //change the res.send('found') to be res.send(req.user)
     //easier to check response that way
     expect(response.status).toBe(200);
+    // expect(response.username).toBe('testUser');
   });
 
   it('GET /users // shows all users', async () => {
