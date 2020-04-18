@@ -7,7 +7,7 @@ on:
   push:
     branches: [ lecture-review ]
   pull_request:
-    branches: [ master ]
+    branches: [ lecture-review ]
 
 jobs:
   build:
