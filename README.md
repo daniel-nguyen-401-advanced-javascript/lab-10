@@ -1,12 +1,12 @@
-# LAB - Class 10
+# LAB - Class 13
 
-## Project: Authentication
+## Project: Bearer Auth
 
 ### Author: Daniel Nguyen
 
 ### Links and Resources
 
-- [submission PR](https://github.com/daniel-nguyen-401-advanced-javascript/lab-10/pull/2)
+- [submission PR](https://github.com/daniel-nguyen-401-advanced-javascript/lab-10/pull/3)
 - [ci/cd](https://github.com/daniel-nguyen-401-advanced-javascript/lab-10/actions) (GitHub Actions)
 - [back-end server url](NA) 
 - [front-end application](NA)
@@ -26,9 +26,10 @@ N/A
 #### `.env` requirements (where applicable)
 - `PORT`
 - `MONGODB_URI`
+- `SECRET`
 
 #### How to initialize/run your application (where applicable)
-- `node index.js`
+- `nodemon index.js`
 
 #### How to use your library (where applicable)
 
