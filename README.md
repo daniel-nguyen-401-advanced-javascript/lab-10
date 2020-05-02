@@ -1,20 +1,19 @@
-# LAB - Class 13
+# LAB - Class 14
 
-## Project: Bearer Auth
+## Project: Access Control
 
 ### Author: Daniel Nguyen
 
 ### Links and Resources
 
-- [submission PR](https://github.com/daniel-nguyen-401-advanced-javascript/lab-10/pull/3)
+- [submission PR](https://github.com/daniel-nguyen-401-advanced-javascript/lab-10/pull/4)
 - [ci/cd](https://github.com/daniel-nguyen-401-advanced-javascript/lab-10/actions) (GitHub Actions)
-- [back-end server url](https://git.heroku.com/bearer-auth-lab-401.git)
-Not sure why but my Heroku is being weird. 
+- [back-end server url](https://bearer-auth-lab-401.herokuapp.com)
 - [front-end application](NA)
-- [swagger API]()
+- [swagger API](https://bearer-auth-lab-401.herokuapp.com/api-docs)
 
 #### Documentation
-- [jsdoc]()
+- [jsdoc](http://localhost:3000/api-docs)
 
 ### Modules
 N/A
