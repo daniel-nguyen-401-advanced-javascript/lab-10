@@ -1,7 +1,7 @@
 [
   {
       "role": "admin",
-      "capabilities": ["superuser"]
+      "capabilities": ["superuser", "create", "read", "update", "delete"]
   },
   {
       "role": "editor",
