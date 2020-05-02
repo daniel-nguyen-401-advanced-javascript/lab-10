@@ -1,6 +1,6 @@
-# LAB - Class 13
+# LAB - Class 14
 
-## Project: Bearer Auth
+## Project: Access Control
 
 ### Author: Daniel Nguyen
 
