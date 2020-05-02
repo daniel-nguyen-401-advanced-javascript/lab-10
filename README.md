@@ -6,7 +6,7 @@
 
 ### Links and Resources
 
-- [submission PR](https://github.com/daniel-nguyen-401-advanced-javascript/lab-10/pull/3)
+- [submission PR](https://github.com/daniel-nguyen-401-advanced-javascript/lab-10/pull/4)
 - [ci/cd](https://github.com/daniel-nguyen-401-advanced-javascript/lab-10/actions) (GitHub Actions)
 - [back-end server url](https://git.heroku.com/bearer-auth-lab-401.git)
 Not sure why but my Heroku is being weird. 
